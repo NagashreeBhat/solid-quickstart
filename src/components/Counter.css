@@ -1,3 +1,14 @@
+@import "compass/css3";
+
+.list-inline>li {
+  background-color: purple + 80;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: white;
+  font-size: 26px;
+}
+
 .increment {
   font-family: inherit;
   font-size: inherit;
@@ -18,3 +29,4 @@
 .increment:active {
   background-color: rgba(68, 107, 158, 0.2);
 }
+
